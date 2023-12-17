@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment page</title>
+</head>
+<body>
+    <center>
+        <h1>Payment page</h1>
+        <table border="30" cellspacing ="30" cellpadding ="10" style="width: 100%;">
+    <tr>
+        <th colspan="2" style="background-color: dodgerblue ;"><h2>Select payment method </h2></th>
+    </tr>
+    <tr>
+        
+        <td style="background-image: url(http://cdn.thestorypedia.com/images/2020/12/1608368551_1920px-upi-logo-vectorsvg_0.png?v=107); width: 50%;" ><input type="radio" name="payment method" value="upi">UPI 
+            <img src="https://i0.wp.com/financebuddha.com/blog/wp-content/uploads/2016/12/23155635/UPI1.jpg?fit=945%2C709&ssl=1" alt="" style="width: 100px;height: 80px;padding-left:70px;"></td>
+       <td >
+    
+        <label for="upi_id">  UPI ID :</label><br>
+        
+        
+        <input type="text" id="upi_id" name="upi_id">
+
+       </td>
+    </tr>
+    <tr>
+        <td style="background-image: url(https://tse1.explicit.bing.net/th?id=OIP.ULyyx56kCC6NRhYboKVTGwHaE8&pid=Api&P=0&h=180); object-fit: cover;"><input type="radio" name="payment_method" value="credit_card">Credit card
+            </td>
+        <td >
+            <label for="credit_card_number">Card Number:</label><br>
+            <input type="text" id="credit_card_number"name="credit_card_number"><br>
+        <label for="expiry_date">Expiry Date:</label><br>
+        <input type="text" id="expiry_date" name="expiry_date"><br>
+        <label for="cvv">CVV:</label><br>
+        <input type="text" id="cvv" name="cvv">
+    </td>
+    </tr>
+    <tr>
+        <td style="background-image: url(https://tse1.mm.bing.net/th?id=OIP.UvfRUgZ7ppQmK6q3tvIXkwHaE8&pid=Api&P=0&h=180);"><input type="radio" name="payment_method" value="debit_card">Debit card
+        </td>
+    </td>
+        <td>
+            <label for="debit_card_number">Card number:</label><br>
+            <input type="text" id="debit_card_number" name="debit_card_number"><br>
+            <label for="debit_expiry_date">Expiry Date:</label>
+        <br>
+        
+            <input type="text" id="debit_expiry_date" name="debit_expiry_date"><br>
+            <label for="debit_cvv">CVV:</label><br>
+            <input type="text" id="debit_cvv" name="debit_cvv">
+        </td>
+    </tr>
+    <tr>
+    
+        <td style="background-color: gray;"><input type="radio" name="payment_method" value="cod">Cash on Delivery
+            <img src="https://img.freepik.com/free-vector/cash-delivery-concept-illustrated_23-2148789634.jpg?size=664&ext=jpg" alt="" style="width: 70px;height: 80px;padding-left:5%; zoom:2;">
+</td>
+    </center>
+    </tr>
+    </tr>
+    </table>
+    <br>
+  <a href="success.html"><input type="button" value="proceed to pay" style="background-color: dodgerblue;"> <br><br> </a>
+   <a href="welcome.html"> <input type="button" value="Back to Menu"></a>
+    </center>
+    
+</body>
+</html>
